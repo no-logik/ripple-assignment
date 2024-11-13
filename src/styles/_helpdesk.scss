@@ -1,0 +1,12 @@
+.helpdesk{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #f1f3f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding: var(--spacing-md);
+
+}

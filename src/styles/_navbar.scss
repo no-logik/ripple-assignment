@@ -1,0 +1,97 @@
+.navbar {
+  padding-block: 20px;
+  padding-inline: 35px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+
+  .nav-links {
+    display: flex;
+    gap: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+
+    a {
+      color: #79747E;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      position: relative;
+
+      &:hover {
+        color: #1D192B;
+      }
+
+      &.active {
+        color: #1D192B;
+        font-weight: 600;
+
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: -24px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 60%;
+          height: 2px;
+          background-color: #1D192B;
+        }
+      }
+    }
+
+    .search-container{
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      align-items: center ;
+      justify-content: flex-start;
+    }
+
+    .search-input{
+      position: absolute;
+      border: 2px solid var(--primary-color-dark); // Changed outline color
+      border-radius: 16px;
+      outline: none;
+      left: 28px;
+      padding: 10px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #1D192B;
+      background-color: transparent;
+      width: 240px;
+      height: 40px;
+    }
+
+    .separator {
+      background: linear-gradient(180deg, rgba(171, 157, 255, 0) 0%, #E2CDFF 51.44%, rgba(123, 102, 250, 0) 100%);
+      width: 2px;
+      height: 24px;
+      margin: 0 8px;
+    }
+
+    .search-icon {
+      height: 24px;
+      width: 24px;
+      cursor: pointer;
+      transition: opacity 0.2s ease;
+      vertical-align: center;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+  .position-holder {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 400px;
+    height: 50px;
+  }
+}

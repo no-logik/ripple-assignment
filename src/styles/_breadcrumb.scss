@@ -1,0 +1,41 @@
+.breadcrumbs {
+  padding: 34px 0 20px 34px;
+  color: #D0D1D2;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  align-self: flex-start;
+
+  a {
+    color: #D0D1D2;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    &.active {
+      color: var(--primary-color-dark);
+    }
+
+    a.last{
+      color: #D0D1D2;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .breadcrumb-item {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+
+    .separator {
+      color: #D0D1D2;
+    }
+  }
+}
+

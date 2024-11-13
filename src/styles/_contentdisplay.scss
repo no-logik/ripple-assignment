@@ -1,0 +1,28 @@
+.contentdisplay {
+  width: inherit;
+  margin: inherit;
+  // height: calc(100vh - var(--navbar-height));
+  overflow: hidden;
+  display: flex-start;
+  flex-direction: column;
+
+  &__workspace {
+    flex: 1;
+    overflow-y: auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: var(--spacing-md);
+    
+    scrollbar-width: thin;
+    
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background-color: #79747E;
+      border-radius: 3px;
+    }
+  }
+  
+}

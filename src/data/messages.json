@@ -1,0 +1,92 @@
+[
+  {
+    "message": "Hello! How can I help you today?",
+    "sent": false,
+    "reacted": true,
+    "liked": true,
+    "online": false,
+    "generatedTime": "2024-03-19T10:23:45.123Z",
+    "sendericon": "/src/assets/ripplelabs.png"
+  },
+  {
+    "message": "I have a question about the pricing",
+    "sent": true,
+    "reacted": false,
+    "liked": false,
+    "online": false,
+    "generatedTime": "2024-03-19T10:24:12.456Z",
+    "sendericon": "/src/assets/avatar.png"
+  },
+  {
+    "message": "Sure! Our basic plan starts at $99/month",
+    "sent": false,
+    "reacted": true,
+    "liked": true,
+    "online": false,
+    "generatedTime": "2024-03-19T10:24:45.789Z",
+    "sendericon": "/src/assets/ripplelabs.png"
+  },
+  {
+    "message": "Does that include all features?",
+    "sent": true,
+    "reacted": false,
+    "liked": false,
+    "online": false,
+    "generatedTime": "2024-03-19T10:25:15.234Z",
+    "sendericon": "/src/assets/avatar.png"
+  },
+  {
+    "message": "The basic plan includes core features. Premium features are available in higher tiers.",
+    "sent": false,
+    "reacted": true,
+    "liked": false,
+    "online": true,
+    "generatedTime": "2024-03-19T10:26:00.567Z",
+    "sendericon": "/src/assets/ripplelabs.png"
+  },
+  {
+    "message": "Can you tell me more about the premium features?",
+    "sent": true,
+    "reacted": false,
+    "liked": false,
+    "online": false,
+    "generatedTime": "2024-03-19T10:26:45.890Z",
+    "sendericon": "/src/assets/avatar.png"
+  },
+  {
+    "message": "Premium features include advanced analytics, custom integrations, and priority support",
+    "sent": false,
+    "reacted": true,
+    "liked": true,
+    "online": false,
+    "generatedTime": "2024-03-19T10:27:30.123Z",
+    "sendericon": "/src/assets/ripplelabs.png"
+  },
+  {
+    "message": "That sounds interesting. What's the pricing for premium?",
+    "sent": true,
+    "reacted": false,
+    "liked": false,
+    "online": false,
+    "generatedTime": "2024-03-19T10:28:15.456Z",
+    "sendericon": "/src/assets/avatar.png"
+  },
+  {
+    "message": "Premium plan is $199/month with annual billing",
+    "sent": false,
+    "reacted": false,
+    "liked": false,
+    "online": false,
+    "generatedTime": "2024-03-19T10:29:00.789Z",
+    "sendericon": "/src/assets/ripplelabs.png"
+  },
+  {
+    "message": "Thanks for the information!",
+    "sent": true,
+    "reacted": false,
+    "liked": false,
+    "online": false,
+    "generatedTime": "2024-03-19T10:29:45.012Z",
+    "sendericon": "/src/assets/avatar.png"
+  }
+]

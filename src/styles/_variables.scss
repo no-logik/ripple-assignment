@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #7048FF;
+  --primary-color-light: color-mix(in srgb, var(--primary-color) 70%, white);
+  --primary-color-dark: color-mix(in srgb, var(--primary-color), black 10%);
+  --background-color: #f4f4f9;
+  --spacing-sm: 0.625rem;
+  --spacing-md: 1.25rem;
+  --spacing-lg: 1.875rem;
+}

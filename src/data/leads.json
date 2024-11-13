@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Abhay",
+    "platform": "WhatsApp",
+    "group": "",
+    "time": "2023-11-15T09:30:00Z",
+    "source": "LinkedIn",
+    "phone": "555-123-4567",
+    "message": "Hello there! I am excited to connect with you regarding potential collaboration opportunities. With my extensive experience in software development and project management, I believe we can create impactful solutions together. Let's discuss how we can leverage our skills to achieve mutual goals and drive innovation in our respective fields.",
+    "imageUrl": "/src/assets/avatar.png",
+    "liked": false,
+    "contacted": false,
+    "hidden": false
+  },
+  {
+    "name": "John Doe",
+    "platform": "WhatsApp",
+    "group": "Project Serendip",
+    "time": "2023-12-01T14:45:00Z",
+    "source": "Referral",
+    "phone": "444-987-6543",
+    "message": "Hi! I'm reaching out to learn more about your services. I've heard great things and am interested in how we can potentially work together on upcoming projects. Could you provide more details on your offerings and how you approach client collaborations? Looking forward to your response.",
+    "imageUrl": "/src/assets/avatar.png",
+    "liked": true,
+    "contacted": true,
+    "hidden": true
+  },
+  {
+    "name": "Jane Doe",
+    "platform": "WhatsApp",
+    "group": "Project Horizon",
+    "time": "2023-12-05T16:20:00Z",
+    "source": "Social Media",
+    "phone": "333-654-7890",
+    "message": "Greetings! I'm interested in discussing a potential partnership opportunity with your company. Our team has been following your work and we believe that a collaboration could be highly beneficial for both parties. Please let me know a convenient time for you to have a detailed conversation about this.",
+    "imageUrl": "/src/assets/avatar.png",
+    "liked": false,
+    "contacted": true,
+    "hidden": true
+  },
+  {
+    "name": "David Putra",
+    "platform": "WhatsApp",
+    "group": "Project Nexus",
+    "time": "2024-01-10T11:15:00Z",
+    "source": "Conference",
+    "phone": "222-345-6789",
+    "message": "Hello! It was great meeting you at the recent tech conference. I'm interested in exploring potential collaboration avenues, especially in the realm of AI and machine learning. Let's discuss how we can combine our expertise to develop innovative solutions that address current industry challenges.",
+    "imageUrl": "/src/assets/avatar.png",
+    "liked": true,
+    "contacted": false,
+    "hidden": false
+  },
+  {
+    "name": "Oggy Oggy",
+    "platform": "WhatsApp",
+    "group": "Project Serendip",
+    "time": "2024-01-12T13:50:00Z",
+    "source": "Newsletter",
+    "phone": "111-456-7890",
+    "message": "Hi! I came across your newsletter and was intrigued by your recent projects. I'm looking to expand my network and possibly collaborate on future initiatives. Could you share more information about your current needs and how I might be able to contribute? Thank you!",
+    "imageUrl": "/src/assets/avatar.png",
+    "liked": true,
+    "contacted": false,
+    "hidden": true
+  },
+  {
+    "name": "Alice",
+    "platform": "WhatsApp",
+    "group": "Project Nexus",
+    "time": "2024-01-15T10:30:00Z",
+    "source": "LinkedIn",
+    "phone": "999-234-5678",
+    "message": "Hello! I'm interested in exploring potential collaboration opportunities with your team. I have a background in data analytics and am keen on leveraging my skills to drive impactful projects. Let's connect to discuss how we can work together to achieve our goals.",
+    "imageUrl": "/src/assets/avatar.png",
+    "liked": false,
+    "contacted": false,
+    "hidden": false
+  }
+]

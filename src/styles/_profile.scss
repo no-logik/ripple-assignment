@@ -1,0 +1,112 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 10px;
+  background-color: white;
+  border-radius: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;  
+  transition: all 0.3s ease;
+  font-family: 'DM Sans', sans-serif;
+  width: fit-content;
+  z-index: 10;
+
+  &:hover {
+    // transform: translateY(-5px);
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.08);
+  }
+
+  
+
+  &__info {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    cursor: pointer;
+    align-items: right;
+    gap: 16px;
+  }
+
+  &__image {
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+    border: 2px solid var(--primary-color-light);
+    object-fit: cover;
+    margin-bottom: var(--spacing-sm);
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: var(--spacing-sm);
+  }
+
+  &__name {
+    font-weight: 550;
+    letter-spacing: 0.5px;
+    font-size:18px;
+    color: #000;
+    margin-bottom: var(--spacing-xs);
+  }
+
+  &__title {
+    color: var(--primary-color-dark);
+    font-size: 0.875rem;
+    
+  }
+
+  .profile__arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.1s ease;
+    font-size: 30px;
+    font-weight: 400;
+
+    &--hovered {
+      transform: scaleY(-1);
+    }
+  }
+
+
+  &__options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    transition: opacity 0.3s ease, height 0.3s ease;
+    border-radius: 16px;
+
+    &--visible {
+      opacity: 1;
+      height: auto;
+    }
+    
+  }
+
+  &__option {
+    padding: var(--spacing-sm) 0;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-family: Poppins, sans-serif;
+
+    &:hover {
+      background-color: var(--background-color);
+    }
+  }
+
+  &__separator {
+    width: 80%;
+    height: 1px;
+    background-color: #D0D1D2;
+    margin: var(--spacing-xs) 0;
+  }
+}
