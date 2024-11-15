@@ -1,7 +1,6 @@
 ### README.md
 
-```md
-# Vite TypeScript React Project
+# RippleLabs Assignment react-ts Project
 
 This project is a Vite-based React application written in TypeScript. It includes a variety of components and features, including a chat application, lead management, and more.
 
@@ -19,8 +18,8 @@ To get started with this project, you need to have Node.js and npm (or yarn) ins
 
 1. **Clone the repository:**
 
-  ```sh
-  git clone https://github.com/your-username/your-repo-name.git
+  ```
+  git clone https://github.com/no-logik/ripple-assignment.git
   cd your-repo-name
   ```
 
