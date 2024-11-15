@@ -4,7 +4,7 @@ import App from '../App';
 import Dashboard from '../pages/Dashboard';
 import Organization from '../pages/Organization';
 import Notifications from '../pages/Notification';
-import MainComponent from '../pages/InHouseBreadCrumb';
+import MainComponent from '../pages/MainComponent';
 
 const AppRoutes: React.FC = () => {
   return (
