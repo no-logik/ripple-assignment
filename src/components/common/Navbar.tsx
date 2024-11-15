@@ -16,6 +16,7 @@ const Navbar: React.FC = () => {
         <NavLink to="/dashboard/whatsapp" className="nav-link">Dashboard</NavLink>
         <NavLink to="/organization" className="nav-link">Organization</NavLink>
         <NavLink to="/notifications" className="nav-link">Notifications</NavLink>
+        <NavLink to="/inhousebc" className="nav-link">NewBreadCrumb</NavLink>
         <div className="separator"></div>
         <div className="search-container">
           <img 
